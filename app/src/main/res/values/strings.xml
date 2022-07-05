@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Global Reporting App</string>
+    <string name="placeholder">Lorem Ipsum</string>
+
+    <string name="guide_title_1"><![CDATA[Runway Condition Description & Runway Condition Code]]></string>
+    <string name="guide_description_1">Untuk penilaian kondisi landas pacu beserta dengan kode untuk kondisi pada landas pacu</string>
+    <string name="guide_runway_desc_2"><![CDATA[Wet (Permukaan runway terlihat lembab atau terdapat ketinggian air dengan cakupan < 3mm)]]></string>
+    <string name="guide_runway_desc_4"><![CDATA[Standing Water (ketinggian cakupan air > 3mm)]]></string>
+
+    <!--list report-->
+    <string name="no_label">No:</string>
+    <string name="petugas_label">Petugas:</string>
+    <string name="waktu_label">Waktu:</string>
+    <string name="calc_label">(Aeroplane Performance Calculation Section)</string>
+    <string name="hari_label">Hari:</string>
+    <string name="tanggal_label">Tanggal:</string>
+    <string name="icao_label">ICAO:</string>
+    <string name="kondisi_label">Kondisi:</string>
+    <string name="detail_title">Detail Laporan</string>
+
+    <!--dropdown-->
+    <string-array name="roles">
+        <item>Inspektor</item>
+        <item>Navigator</item>
+    </string-array>
+</resources>

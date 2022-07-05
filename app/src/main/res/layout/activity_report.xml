@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ReportActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/detail_title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_detail_nomor_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/no_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/tv_detail_nomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_nomor_label"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_nomor_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_hari_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/hari_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_nomor_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_hari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_hari_label"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_hari_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_tanggal_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/tanggal_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_hari_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_tanggal_label"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_tanggal_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_icao_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/icao_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_tanggal_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_icao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_icao_label"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_icao_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/calc_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_icao_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_calc_label" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_calc1"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_calc1" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_calc1" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_calc3"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_calc3" />
+
+        <TextView
+            android:id="@+id/tv_detail_calc5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_calc3" />
+
+        <TextView
+            android:id="@+id/tv_detail_kondisi_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/kondisi_label"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_calc5" />
+
+        <TextView
+            android:id="@+id/tv_detail_kondisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/tv_detail_kondisi_label"
+            app:layout_constraintTop_toTopOf="@+id/tv_detail_kondisi_label" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

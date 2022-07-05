@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "690596979188",
+    "project_id": "global-reporting-app",
+    "storage_bucket": "global-reporting-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690596979188:android:4612a427c71adca7bd99a1",
+        "android_client_info": {
+          "package_name": "com.setiyawan.globalreportingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690596979188-tpktmps7gou7phajvj25nk8vsd5kkd5n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setiyawan.globalreportingapp",
+            "certificate_hash": "b4aecbf4bb1e1bb713829e7104e020cd9298716f"
+          }
+        },
+        {
+          "client_id": "690596979188-tlvvv1rg4l0vjltp1rpuh427dslic2ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCneaWXBUl4p78KzG0r97HcnsRlQ5V3VgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690596979188-tlvvv1rg4l0vjltp1rpuh427dslic2ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
